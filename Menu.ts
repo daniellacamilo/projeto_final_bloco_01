@@ -88,6 +88,10 @@ export function main() {
 
                 keyPress();
                 break;
+            case 6:
+                console.log("Consultar Produto por Nome");
+                keyPress();
+                break;
             default:
                 console.log(Colors.fg.whitestrong, "\nOpção Inválida!\n", Colors.reset);
 
