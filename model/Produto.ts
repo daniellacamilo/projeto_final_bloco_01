@@ -55,7 +55,7 @@ export  abstract class Produto {
                 tipoProduto = "Disco";
                 break;
             case 2:
-                tipoProduto = "Fone de Ouvido";
+                tipoProduto = "Fone";
                 break;
             case 3:
                 tipoProduto = "Livro";
