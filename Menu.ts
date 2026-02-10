@@ -64,17 +64,17 @@ export function main() {
 
         switch (opcao) {
             case 1:
-                console.log(Colors.fg.whitestrong, "\n\nCriar Produto\n\n", Colors.reset);
+                console.log(Colors.fg.whitestrong, "\n\nListar todos os Produtos\n\n", Colors.reset);
                 
                 keyPress();
                 break;
             case 2:
-                console.log(Colors.fg.whitestrong, "\n\nListar todos os Produtos\n\n", Colors.reset);
+                console.log(Colors.fg.whitestrong, "\n\nListar Produto - por ID\n\n", Colors.reset);
 
                 keyPress();
                 break;
             case 3:
-                console.log(Colors.fg.whitestrong, "\n\nConsultar dados do Produto - por código\n\n", Colors.reset);
+                console.log(Colors.fg.whitestrong, "\n\nCadastrar Produto\n\n", Colors.reset);
 
                 keyPress();
                 break;
