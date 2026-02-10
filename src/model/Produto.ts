@@ -1,5 +1,5 @@
-import { Input } from "../src/util/Input";
-import { Colors } from "../src/util/Colors";
+import { Input } from "../util/Input";
+import { Colors } from "../util/Colors";
 
 
 export  abstract class Produto {
@@ -55,7 +55,7 @@ export  abstract class Produto {
                 tipoProduto = "Disco";
                 break;
             case 2:
-                tipoProduto = "Fone de Ouvido";
+                tipoProduto = "Fone";
                 break;
             case 3:
                 tipoProduto = "Livro";
