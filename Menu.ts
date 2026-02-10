@@ -1,9 +1,36 @@
-import { Input } from './src/util/Input';
-import { Colors } from './src/util/Colors';
+import { Disco } from "./model/Disco";
+import { Fone } from "./model/Fone";
+import { Livro } from "./model/Livro";
+
+import { Input } from "./src/util/Input";
+import { Colors } from "./src/util/Colors";
 
 export function main() {
 
     let opcao: number;
+
+      /* TESTES  
+    const produtoT: Produto = new Produto(1, "Madonna", 1, 100);
+    produtoT.id;
+    produtoT.nome;
+    produtoT.tipo;
+    produtoT.preco;
+    artista;
+    produtoT.visualizar(); */
+
+    // Testes para as classes filhas de Produto
+    //  Disco
+    const disco = new Disco(789011, "Music", 2, 100, "Madonna");
+    disco.visualizar();
+
+    // Fone
+    const fone = new Fone(123456, "Fone Apple", 3, 500, "Apple AirPods Max");
+    fone.visualizar();
+
+    // Livro
+    const livro = new Livro(123456, "O Senhor dos Anéis", 1, 150, "J.R.R. Tolkien");
+    livro.visualizar();
+    
 
     while (true) {
 
