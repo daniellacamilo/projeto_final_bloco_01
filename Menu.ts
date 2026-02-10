@@ -1,5 +1,5 @@
-import { Input } from './src/util/Input';
-import { Colors } from './src/util/Colors';
+import { Input } from "./src/util/Input";
+import { Colors } from "./src/util/Colors";
 
 export function main() {
 
